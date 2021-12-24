@@ -1,16 +1,4 @@
 
-###So, with this program, I want to turn integer input from the console into scientific notation. I believe it's a pretty basic program for some, but it rubbed my braincells and tested my python knowledge during this weekend.
-###The program still has some bugs I couldn't solve, so I hope uou guys can. (btw I use sublimeREPL for the input part)
-
-#The main bug that appears is when I input a num with a bigalg on the last algorism: it spits me this:
-
-# Traceback (most recent call last):
-#   File "C:\Users\...\Python\scinote.py", line 62, in <module>
-#     scinoteConvert(input_num)
-#   File "C:\Users\...\scinote.py", line 47, in __init__
-#     if alglog[int(alg)-1] == False:
-# IndexError: list index out of range
-
 class scinoteConvert:
     #Should I put all the code on __init__()? Is there performenance inefficiency in doing that?
 
